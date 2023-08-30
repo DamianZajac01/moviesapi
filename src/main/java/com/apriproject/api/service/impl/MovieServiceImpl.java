@@ -38,7 +38,6 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public Movie save(Movie movie) {
-
         Category category = movie.getCategory();
         Optional<Category> tempCategory = categoryRepository.getByName(category.getName());
         tempCategory.ifPresent(movie::setCategory);
