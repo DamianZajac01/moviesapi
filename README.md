@@ -1,7 +1,7 @@
 # Movies API Project
 
 ## Description
-The Movie API Project is designed to add and receive information about movies.
+The Movie API Project is designed to add and receive informations about movies.
 
 ## Installation
 1. Clone the repository to your local machine.
